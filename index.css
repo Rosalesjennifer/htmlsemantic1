@@ -1,160 +1,143 @@
-/* Portfolio CSS */
-
-/* Body */
-body {
+body{
     margin: 0;
     padding: 0;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     background-color: #f9f9f9;
     line-height: 1.6;
 }
-
-/* Header */
-header {
+header{
     background-color: #333;
-    color: #fff;
+    color: #f9f9f9;
     padding: 20px;
     text-align: center;
     position: relative;
-    
 }
-
-header h1 {
+header h1{
     margin: 0;
     font-size: 36px;
     text-transform: uppercase;
     letter-spacing: 2px;
     font-weight: 700;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
-}h2{
+}
+h2{
     margin: 0;
     font-size: 36px;
     text-transform: uppercase;
     letter-spacing: 2px;
     font-weight: 700;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
-
 }
-
-/* Navigation */
-nav {
+nav{
     text-align: center;
-}
 
+}
 nav ul {
     list-style: none;
     padding: 0;
     text-transform: uppercase;
-}
 
-nav li {
-    display: inline;
-    margin-right: 20px;
-}
 
-nav a {
+}
+nav li{
+    display: inline-block;
+    margin: 20px;
+}
+nav a{
     text-decoration: none;
-    color: #fff;
+    color: white;
     font-size: 18px;
     transition: color 0.3s ease;
-}
 
-nav a:hover {
-    color: #ffd700;
-}
 
-/* Main Content */
-main {
+}
+nav a:hover{
+    color:yellow;
+    
+}
+main{
     padding: 20px;
-}
 
-section {
+}
+section{
     margin-bottom: 40px;
     padding: 20px;
-    border-radius: 10px;
+    border-radius: 20px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-}
 
-section h2 {
-    color: #333;
+
+}
+section h2{
+    color: black;
     font-size: 28px;
     margin-bottom: 15px;
     position: relative;
     text-align: center;
 }
-
-
-section h2::after {
+section h2::after{
     content: '';
     display: block;
     width: 50px;
     height: 2px;
-    background-color: #663366;
+    background-color: #636;
     position: absolute;
     bottom: -10px;
-    left: 50%;
     transform: translateX(-50%);
+    
 }
-
-figure {
-    margin: 0 auto;
+figure{
+    margin: auto;
     text-align: center;
-}
 
-figure img {
+}
+figure img{
     border-radius: 10px;
     max-width: 100%;
     height: auto;
     margin-bottom: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
     transition: transform 0.3s ease;
-}
 
-figure img:hover {
+}
+figure img:hover{
     transform: scale(1.05);
-}
 
-figcaption {
+}
+figcaption{
     color: #777;
     font-style: italic;
     font-size: 14px;
 }
-
-/* Button */
-.button {
+.button{
     display: inline-block;
-    background-color: #663366;
-    color: #fff;
+    background-color: #636;
+    color: white;
     padding: 10px 20px;
     font-size: 16px;
     text-transform: uppercase;
     text-decoration: none;
     border-radius: 5px;
     transition: background-color 0.3s ease;
-}
 
-.button:hover {
+}
+.button:hover{
     background-color: #4b2a4b;
-}
 
-/* Horizontal Rule */
-hr {
+}
+hr{
     border: 0;
     border-top: 1px solid #ccc;
     margin: 20px 0;
+
 }
-html {
+html{
     scroll-behavior: smooth;
 }
 h3{
     text-align: center;
-}
-li{
-    list-style: none;
-    text-align: center;
+
 }
 #pic{
     height: 200px;
     width: 300px;
 }
-
